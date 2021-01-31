@@ -1,4 +1,4 @@
-# AWS(EC2+RDS) +NODE.js + mysql로 로그인/ 회원 가입 
+# AWS(EC2+RDS) +NODE.js + mysql로 로그인/ 회원 가입/ 친구창
 
 - ### 간단한 연습
 
@@ -7,6 +7,20 @@
   - 실행환경 : android 
   - Tools: android studio, putty, mysql, filezilla,aws
   - **설명**: 이전에 했던 실습처럼 사용자 기기가 모든 데이터를 가져와서 작업하는 것이 아닌 서버가 기기에서 필요한 정보만 걸러서 제공하는 서버를 가진 프로그램을 구상하던 중 서버 구성에 대한 이해를 위해 실습
+
+
+
+- 회원가입 / 로그인
+
+  <img src="md_img/회원가입로그인.gif" alt="회원가입로그인" style="zoom:67%;" />
+
+- 로그인/ 친구창
+
+  <img src="md_img/로그인 친구창.gif" alt="로그인 친구창" style="zoom:67%;" />
+
+
+
+
 
 
 
@@ -306,15 +320,4 @@
   
   <img src="md_img/db 구성 friendRelation.png" alt="db 구성 friendRelation" style="zoom:67%;" />
   
-- 회원가입 / 로그인
-  
-  
-  <img src="md_img/회원가입로그인.gif" alt="회원가입로그인" style="zoom:67%;" />
-  
-- 로그인/ 친구창
-  
-  
-  <img src="md_img/로그인 친구창.gif" alt="로그인 친구창" style="zoom:67%;" />
-
-
 
