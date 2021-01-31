@@ -9,10 +9,7 @@ data class LoginData(
         @field:SerializedName("userEmail") private val userName: String,
         @field:SerializedName("userPwd") private val userPwd: String
 )
-data class UserData(
-        @field:SerializedName("useruid") private val useruid: Int
 
-)
 class LoginResponse {
     @SerializedName("code")
     val code = 0
@@ -25,6 +22,9 @@ class LoginResponse {
 
 }
 
+data class UserData(
+        @field:SerializedName("useruid") private val useruid: Int
+)
 class  friendrelation(
         @field:SerializedName("User1Uid")  val user1uid: Int,
         @field:SerializedName("User1Name")  val user1name: String,

@@ -30,6 +30,4 @@ interface ServiceApi {
     @POST("/user/friends")
     fun findFriend(@Body data: UserData): Call<FriendlistResponse?>?
 
-
-
 }
