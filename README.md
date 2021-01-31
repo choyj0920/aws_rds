@@ -19,8 +19,11 @@
 3. putty설치 putty gen로 ec2의 키를 ppk 로 컨버트 후 puuty구성 (ec2 hostname, username, key)
    ![image-20210131164224706](md_img/image-20210131164224706.png)
    정상 실행 화면
-   <img src="md_img/image-20210131164947079.png" alt="image-20210131164947079" style="zoom: 80%;" />
+   
 
+   
+   <img src="md_img/image-20210131164947079.png" alt="image-20210131164947079" style="zoom: 80%;" />
+   
 4. putty 설정 실행후  - putty 명령어 창에  node.js 설치 &  필요한 라이브러리 설치 ( 추가적으로 3., 4. aws ec2에서 제공하는 인스턴스 접속기능으로도 수행 가능)
 
    ```
@@ -172,6 +175,8 @@
 6. filezilla 구성  , ec2의 bin folder 에 main.js 를 넣고 main.js실행
 
    - filezilla 연결  ppk-키 삽입, 사이트 관리자 
+     
+     
      ![](md_img/image-20210131170023338.png)
      ![image-20210131170204172](md_img/image-20210131170204172.png)
    - 연결후 bin 폴더안에 js파일을 넣고
@@ -186,7 +191,7 @@
    ![image-20210131170438363](md_img/image-20210131170438363.png)
 
 8.  안드로이드스튜디오에서 Retrofit을 이용해 구성
-   
+
 
 9. 연결에 필요한  interface, 각 데이터, 응답 클래스 선언
 
@@ -292,12 +297,23 @@
 
 - db구성
   - User db
-    ![db 구성 user](md_img/db 구성 user.png)
+  
+  <img src="md_img/db 구성 user.png" alt="db 구성 user" style="zoom:80%;" />
+  
+  
+  
   - FriendsList
-    ![db 구성 friendRelation](md_img/db 구성 friendRelation.png)
+  
+  <img src="md_img/db 구성 friendRelation.png" alt="db 구성 friendRelation" style="zoom:67%;" />
+  
 - 회원가입 / 로그인
+  
+  
   <img src="md_img/회원가입로그인.gif" alt="회원가입로그인" style="zoom:67%;" />
+  
 - 로그인/ 친구창
+  
+  
   <img src="md_img/로그인 친구창.gif" alt="로그인 친구창" style="zoom:67%;" />
 
 
