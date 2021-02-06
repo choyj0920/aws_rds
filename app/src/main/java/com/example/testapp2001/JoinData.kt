@@ -14,10 +14,8 @@ data class JoinData(
 class JoinResponse {
     @SerializedName("code")
     val code = 0
-
     @SerializedName("message")
     val message: String? = null
-
 }
 
 interface ServiceApi {
